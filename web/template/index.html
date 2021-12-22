@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="'https://fonts.googleapis.com/css?family=Roboto+Mono'" rel="stylesheet">
+  <style>
+    .center {
+      width: auto;
+    }
+    .tree {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      width: 180px; 
+      line-height: 0.2; 
+      margin: 0 auto;
+    }
+    .text {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%; 
+      margin: 0 auto; 
+      font-size: 20px;
+      text-align: center;
+    }
+    .line {
+      text-align:center;
+    }
+    .r {
+      color: red;
+    }
+    .b {
+      color: blue;
+    }
+    .y {
+      color: yellow;
+    }
+    .c {
+      color: cyan;
+    }
+    .w {
+      color: white;
+    }
+    .g {
+      color: green;
+    }
+    .brown {
+      color: brown;
+    }
+  </style>
+</head>
+<body style="background-color:#110c0d; color: white; font-family: 'Roboto Mono', monospace;">
+  <div>
+    <div class="tree">
+      <p class="line y">*</p>
+      <p class="line y">***</p>
+      <p class="line g">/_\</p>
+      <p class="line g">/_\_\</p>
+      <p class="line g">/_/_/<span class="r">⬤</span>\</p>
+      <p class="line g">/<span class="c">⬤</span>\_\_\</p>
+      <p class="line g">/_/<span class="b">⬤</span>/_/_\</p>
+      <p class="line g">/_\_\_\_\</p>
+      <p class="line g">/_/_/<span class="w">⬤</span>/_/_\</p>
+      <p class="line g">/<span class="y">⬤</span>\_\_\_\<span class="b">⬤</span>\</p>
+      <p class="line g">/_/_/_/<span class="g">⬤</span>/_/_\</p>
+      <p class="line g">/_\<span class="y">⬤</span>\_\_\<span class="r">⬤</span>\_\</p>
+      <p class="line g">/_/_/<span class="c">⬤</span>/_/_/_/_\</p>
+      <p class="line g">/_\<span class="w">⬤</span>\_\_\_\_\<span class="c">⬤</span>\</p>
+      <p class="line g">/<span class="r">⬤</span>/_/_/_/<span class="b">⬤</span>/_/_/_\</p>
+      <p class="line g">/_\_\_\<span class="c">⬤</span>\_\_\_\<span class="w">⬤</span>\</p>
+      <p class="line g">/<span class="r">⬤</span>/_/_/_/_/<span class="b">⬤</span>/_/_/_\</p>
+      <p class="line g">/_\_\<span class="w">⬤</span>\_\_\_\_\_\<span class="y">⬤</span>\</p>
+      <p class="line brown">|___|</p>
+    </div>
+    <div class="text">
+        <!--Who.Name is name of the recipient-->
+       <span class="r">happy new years</span><span class="c">&nbsp;{{.Who.Name}}</span><br>
+        <!--Whom.Name is the name of the person to whom the gift will be given-->
+       <span class="w">to </span> <span class="y">&nbsp;{{.Whom.Name}}</span>
+    </div>
+  </div>
+</body>
+</html>

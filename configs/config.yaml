@@ -1,0 +1,19 @@
+smtpSettings:
+  host: smtp.gmail.com
+  port: "587"
+  email: YOUR_MAIL_ADDRESS
+  password: YOUR_PASSWORD
+
+mailSettings:
+  subject: HAPPY NEW YEARS 🎄✨🎅
+  bodyFilePath: ./web/template/index.html
+
+participants:
+  -
+    name: ahmet
+    email: tuncel.ahmet.berke@gmail.com
+  -
+    name: ahmet2
+    email: ahmetberke9009@gmail.com
+
+
